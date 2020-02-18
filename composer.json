@@ -1,7 +1,7 @@
 {
 	"name": "iofficedk/mybasemodel",
 	"type": "library",
-	"descriptiton": "extend your PHP model",
+	"description": "extend your PHP model",
 	"keywords": ["extend", "php model"],
 	"license": "MIT",
 	"authors": [
