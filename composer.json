@@ -8,7 +8,8 @@
 		{"name": "Henrik Tholle", "email": "henrik@ioffice.dk", "role": "developer"}
 	],
 	"require": {
-		"php": ">=7.0.0"
+		"php": ">=7.0.0",
+		"iofficedk/helpers": ">=1.0.0"
 	},
 	"autoload": {
 		"psr-4": {
