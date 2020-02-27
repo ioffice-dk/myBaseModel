@@ -1,0 +1,11 @@
+{
+        "mysql" : {
+                "default": {
+                        "host": "localhost",
+                        "user": "",
+                        "pass": "",
+                        "base": "",
+                        "port": "3306"
+                }
+        }
+}
