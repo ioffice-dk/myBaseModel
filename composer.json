@@ -1,19 +1,19 @@
 {
-	"name": "iofficedk/mybasemodel",
-	"type": "library",
-	"description": "extend your PHP model",
-	"keywords": ["extend", "php model"],
-	"license": "MIT",
-	"authors": [
-		{"name": "Henrik Tholle", "email": "henrik@ioffice.dk", "role": "developer"}
-	],
-	"require": {
-		"php": ">=7.0.0",
-		"iofficedk/helpers": ">=1.0.0"
-	},
-	"autoload": {
-		"psr-4": {
-			"Fm\\": "src/"
-		}
-	}
+  "name": "iofficedk/mybasemodel",
+  "type": "library",
+  "description": "extend your PHP model",
+  "keywords": ["extend", "php model"],
+  "license": "MIT",
+  "authors": [
+    {"name": "Henrik Tholle", "email": "henrik@ioffice.dk", "role": "developer"}
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "iofficedk/helper": ">=1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Io\\": "src/"
+    }
+  }
 }

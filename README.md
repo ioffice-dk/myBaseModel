@@ -3,7 +3,7 @@ With myBaseModel you can extends your own models and get some extra query functi
 I used to use it first in a project to quickly getting a "working" model to show if a framework are not choosen yet and in small scripts.
 
 ### Using
-Setup .fm.json with the section
+Setup .io.json with the section
 
     {
         "mysql": {
@@ -20,7 +20,7 @@ Setup .fm.json with the section
 ```php
 namespace App\Model;
 
-Class Users extends \Fm\Model\Base\myBaseModel
+Class Users extends \Io\Model\Base\myBaseModel
 {
     protected $table = 'user';
 }
