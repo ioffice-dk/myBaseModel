@@ -143,7 +143,7 @@ Class myBaseModel extends Io\Instance\MySqli
     }
 
 
-    private function whereParser($Separator=null, $Field=null, $Operator=null, $Value=null, $Parenthesis=null)
+    private static function whereParser($Separator=null, $Field=null, $Operator=null, $Value=null, $Parenthesis=null)
     {
         $ConditionCount = count(self::$Condition);
 
@@ -333,7 +333,7 @@ Class myBaseModel extends Io\Instance\MySqli
      */
     public function getSql()
     {
-        return self::renderSql() ;
+        return self::renderSql();
     }
 
 
